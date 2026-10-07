@@ -102,3 +102,25 @@ This project is licensed under the terms of the MIT open source license. Please 
 ### OWASP Juice Shop
 
 This lab uses and includes sample code from the OWASP Juice Shop project. The Juice Shop is Copyright (c) 2014-2024 Bjoern Kimminich & the OWASP Juice Shop contributors. Please refer to the [LICENSE](./LICENSE) for the full terms.
+
+---
+
+## Attachments provided
+
+Two attachments were provided to this session and are included in the PR for reference:
+- pubspec.yaml (C:\Users\ling\.copilot\attachments\94fae2bf-eea1-49d9-9f43-d57332c251a9-pubspec.yaml)
+- README.md (C:\Users\ling\.copilot\attachments\cf51bc5b-f07f-4665-ae93-bf70f039915e-README.md)
+
+Decision and reconciliation
+
+- Repository type: this project is a GitHub security workshop (not a Dart/Flutter app). There is no pubspec.yaml in the repository root and the codebase is not structured as a Flutter project. Therefore the attached pubspec.yaml is not applicable and was not merged into the codebase.
+- The attached README.md documents a separate Flutter app (overseas_guide). Relevant guidance has been summarized here for future use: to apply it, create a new Flutter project, replace its `lib/` folder and `pubspec.yaml` with the attached files, run `flutter pub get`, and `flutter run` on a connected device or emulator.
+
+If the maintainers want the Flutter project added to this repository, open an issue or reply to this PR and the attachments will be integrated as a new subproject.
+
+Verification
+
+- No runtime or test changes were required by these documentation updates. Available JS package tests/builds were not impacted by the README-only change.
+
+---
+
